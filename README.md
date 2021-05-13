@@ -1,6 +1,6 @@
 # Hardjs
 
-Nest framework TypeScript starter repository.
+Hardjs micro-framework TypeScript starter repository.
 
 # Installation
 
