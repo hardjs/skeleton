@@ -1,6 +1,6 @@
 {
     "name": "@hardjs/skeleton",
-    "version": "0.1.0",
+    "version": "0.1.6",
     "description": "The hardjs skeleton",
     "main": "index.js",
     "scripts": {
@@ -32,7 +32,7 @@
         "rimraf": "^3.0.2",
         "typeorm": "^0.2.32",
         "typescript": "^4.2.4",
-        "@hardjs/core": "^0.1.2"
+        "@hardjs/core": "^0.1.6"
     },
     "devDependencies": {
         "@types/express": "^4.17.11",
