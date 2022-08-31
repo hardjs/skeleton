@@ -1,12 +1,12 @@
 export const database = [
     {
         name: 'default',
-        type: 'postgres',
-        host: 'localhost',
-        port: 5432,
-        username: 'postgres',
-        password: 'example',
-        database: 'example',
+        type: process.env.DB_CONNECTION || 'postgres',
+        host: process.env.DB_HOST || 'localhost',
+        port: process.env.DB_PORT || 5432,
+        username: process.env.DB_USERNAME || 'postgres',
+        password: process.env.DB_PASSWORD || 'example',
+        database: process.env.DB_DATABASE || 'example',
         synchronize: false,
         logging: false,
         entities: [__dirname + '/../src/Entity/**/*.js'],
